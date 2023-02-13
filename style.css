@@ -1,0 +1,64 @@
+body {
+  animation: color 1s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+@keyframes color {
+  0%   { background: #6900fb; }
+  50%  { background: #f60000; }
+  100%  { background: #1e00ff; }
+}
+
+.bounce{
+  color: #000000;
+  padding-top: 10%;
+  font-family: 'Lucida Sans', cursive;
+  text-align: center;
+  font-size: 100px;
+  animation: bounce .2s ease infinite alternate;
+}
+
+@keyframes bounce{
+  0% {
+      text-shadow:
+                  0 5px 0 #f2f2f8,
+                  0 2px 3px rgb(27, 27, 27);  
+  }
+  100% {
+    transform:translateY(-20px);
+    text-shadow:  0 50px 0 #black, 
+                  0 0px 20px rgba(0, 0, 0, .20);
+  } 
+}
+/* gifs*/
+
+
+.gifwan{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.giftwu{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.giftri{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.giffor{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+}
+
+img{
+  height: 380px;
+}
+
